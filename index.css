@@ -45,6 +45,8 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.logo{
     font-family: var(--fonte-cartaz);
     font-size: 34px;
     font-weight: 900;
@@ -68,3 +70,38 @@ h1, h2, h3 {
 .menu a.atual {
     border-bottom-color: var(--fita);
   }
+
+  .cartazes{
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+  }
+
+  .cartaz{
+    padding: 40px;
+  }
+
+  .cartaz-principal{
+    background: var(--caixa-dagua);
+    color:var(--branco);
+    flex: 2;
+  }
+
+  .cartaz-principal h1{
+   font-size: 132px;
+   max-width: 9ch;
+}
+
+.cartaz-lateral{
+    background: var(--fita);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.cartaz-lateral p{
+    
+}
+  
