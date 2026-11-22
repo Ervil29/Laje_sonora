@@ -218,7 +218,10 @@ h1, h2, h3 {
 .rodape-colunas {
   display: flex;
   gap: 40px;
-  flex: 1;
+}
+
+.rodape-coluna{
+    flex: 1;
 }
 
 .rodape h4 {
